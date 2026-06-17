@@ -6,6 +6,7 @@ public class CountUnique {
         if (num == 0) {
             return 0; // Base case: no more digits to process
         }
+        
         int digit = num % 10; // Get the last digit
         int count = 0;
         if (!seen[digit]) {
